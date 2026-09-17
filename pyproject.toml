@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generic-logic-engines"
+version = "0.1.0"
+description = "Domain-neutral engines for documents, time series, synchronized sensors, and multiscale analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Eight Cycle"}]
+
+[tool.setuptools.packages.find]
+include = ["generic_engines*"]
